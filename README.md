@@ -19,10 +19,6 @@ Para probar este ejemplo clona este repositorio de la siguiente forma:
 
 Dentro de Android Studio:
 
-* File --> New --> Import Project
-* Seleccionas la ruta donde hiciste el `clone` del proyecto.
-* Build --> Rebuild Project
-* Run
 
 ## Captura de Pantalla
 
