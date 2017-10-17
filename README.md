@@ -1,7 +1,7 @@
 # StudyJam _Tarea_2
 
 
-Dentro de este repositorio se encuentra la tarea 1 del Study Jam.
+Dentro de este repositorio se encuentra la tarea 2 del Study Jam.
 Todo dentro del contenido del **Study Jam
 
 
@@ -17,7 +17,6 @@ Para probar este ejemplo clona este repositorio de la siguiente forma:
 >
 >     $ https://github.com/darwinjm/StudyJam_tarea2.git
 
-Dentro de Android Studio:
 
 
 ## Captura de Pantalla
