@@ -15,7 +15,7 @@ Todo dentro del contenido del **Study Jam
 
 Para probar este ejemplo clona este repositorio de la siguiente forma:
 >
->     $ git clone https://github.com/darwinjm/StadyJam_tarea_1.git
+>     $ https://github.com/darwinjm/StudyJam_tarea2.git
 
 Dentro de Android Studio:
 
