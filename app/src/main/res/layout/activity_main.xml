@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.calculadora.MainActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="#F0F0F0">
+      <LinearLayout
+          android:id="@+id/primero"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:layout_marginTop="20dp"
+          >
+          <EditText
+              android:id="@+id/caja1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:focusable="false"
+              android:fontFamily="serif-monospace"
+              android:hint="0"
+              android:textAlignment="textEnd"
+              android:textColor="#000"
+              android:textSize="70dp" />
+
+  </LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00A5C3"
+    android:gravity="center">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/bt7"
+                android:text="7"
+                android:onClick="bt7"
+                android:background="@drawable/botones"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/bt8"
+                android:text="8"
+                android:onClick="bt8"
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+
+            <Button
+                android:id="@+id/bt9"
+                android:text="9"
+                android:onClick="bt9"
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+
+            <Button
+                android:text="C"
+                android:onClick="clear"
+                android:textSize="35sp"
+                android:textColor="#f20303"
+                android:background="@drawable/botones"
+
+                />
+        </TableRow>
+    </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/bt4"
+                android:text="4"
+                android:onClick="bt4"
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+
+            <Button
+                android:id="@+id/bt5"
+                android:text="5"
+                android:onClick="bt5"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+
+            <Button
+                android:id="@+id/bt6"
+                android:text="6"
+                android:onClick="bt6"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+
+            <Button
+                android:id="@+id/btsuma"
+                android:text="+"
+                android:onClick="sum"
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+        </TableRow>
+        </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/bt1"
+                android:text="1"
+                android:onClick="bt1"
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+
+            <Button
+                android:id="@+id/bt2"
+                android:text="2"
+                android:onClick="bt2"
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+
+            <Button
+                android:id="@+id/bt3"
+                android:text="3"
+                android:onClick="bt3"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+
+
+            <Button
+                android:id="@+id/btresta"
+                android:text="-"
+                android:onClick="resta"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+            android:id="@+id/quinto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/bt0"
+                android:text="0"
+                android:onClick="bt0"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+
+            <Button
+                android:id="@+id/btp"
+                android:text="."
+                android:onClick="btpt"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+
+            <Button
+                android:id="@+id/btdiv"
+                android:text="/"
+                android:onClick="division"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+
+            <Button
+                android:id="@+id/btmulti"
+                android:text="*"
+                android:onClick="multiplicacion"
+                android:textSize="35sp"
+                android:background="@drawable/botones"/>
+        </TableRow>
+    </TableLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btigual"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:onClick="igual"
+                android:text="="
+                android:textSize="35sp"
+                android:background="@drawable/botones"
+                />
+
+            <Button
+                android:id="@+id/dell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botones"
+                android:onClick="dell"
+                android:text="del"
+                android:textSize="35sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
